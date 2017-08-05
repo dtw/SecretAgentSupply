@@ -54,3 +54,15 @@ h1 {
 h2 {
   margin-bottom: 0.25rem;
 }
+
+nav {
+  background-color: firebrick;
+}
+
+nav .container {
+  justify-content: space-between;
+}
+
+nav span {
+  padding: 0.75rem 0 0.75rem;
+}
