@@ -151,4 +151,12 @@ footer {
   nav .desktop {
     display: none;
   }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
 }
