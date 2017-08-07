@@ -165,3 +165,52 @@ footer {
     width: 47%;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .product.watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .banner .container {
+    width: 100%;
+  }
+
+  .strap {
+    width: 100%;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  h2 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .business {
+    flex-flow: column wrap;
+  }
+
+  .location,
+  .hours {
+    width: 90%;
+    margin: 0 auto 0.5rem auto;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
