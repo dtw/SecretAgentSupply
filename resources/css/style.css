@@ -166,6 +166,23 @@ footer {
   }
 }
 
+@media only screen and (max-width: 530px) {
+  .business {
+    flex-flow: column wrap;
+  }
+
+  .location,
+  .hours {
+    width: 90%;
+    margin: 0 auto 0.5rem auto;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 470px) {
   .product.watch {
     display: none;
@@ -197,20 +214,5 @@ footer {
 
   h1 {
     font-size: 1rem;
-  }
-
-  .business {
-    flex-flow: column wrap;
-  }
-
-  .location,
-  .hours {
-    width: 90%;
-    margin: 0 auto 0.5rem auto;
-  }
-
-  .copyright {
-    width: 100%;
-    text-align: center;
   }
 }
